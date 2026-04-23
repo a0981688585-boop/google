@@ -10,8 +10,15 @@
     <meta name="apple-mobile-web-app-title" content="擇日服務行事曆" />
     <link rel="apple-touch-icon" href="/favicon.svg" />
     <title>擇日服務行事曆</title>
+    <style>
+      @keyframes fadeIn { from { opacity: 0 } to { opacity: 1 } }
+      @keyframes slideUp { from { transform: translateY(100%) } to { transform: translateY(0) } }
+      .animate-fadeIn { animation: fadeIn 0.2s ease-out }
+      .animate-slideUp { animation: slideUp 0.3s ease-out }
+    </style>
   </head>
   <body>
     <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
   </body>
 </html>
