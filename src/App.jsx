@@ -1067,7 +1067,6 @@ export default function App() {
                   <div className="bg-gradient-to-r from-orange-50 to-red-50 rounded-xl p-3 shadow-sm border border-orange-100">
                     <div className="text-[10px] text-orange-400 font-medium mb-1">日沖</div>
                     <div className="text-orange-600 font-bold text-lg">{lunar.chongZodiac}</div>
-                    <div className="text-orange-400 text-[10px]">({getChongSuiList(lunar.chongZodiac)})</div>
                   </div>
                 )}
               </div>
